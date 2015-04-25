@@ -1,7 +1,13 @@
 <% provide(:title, "Home") %>
- <h1>Reckless Thought</h1>
- <p>
-   This is the home page for what will become my blog website.</br>
-   The website is very much still a work in progress.
- </p>
 
+<div class="center jumbotron">
+  <h1>Reckless Thought</h1>
+
+  <h2>
+    This is my blog website. It is far from complete, but I'm working on it!
+  </h2>
+
+  <%= link_to "Sign up to comment!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
